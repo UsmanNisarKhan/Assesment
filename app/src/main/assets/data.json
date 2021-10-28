@@ -1,0 +1,63 @@
+{
+  "response": {
+    "numFound": 5270,
+    "start": 0,
+    "maxScore": 6.507213,
+    "docs": [
+      {
+        "id": "10.1371/journal.pone.0000290",
+        "journal": "PLoS ONE",
+        "eissn": "1932-6203",
+        "publication_date": "2007-03-14T00:00:00Z",
+        "article_name": "Research Article",
+        "books1": [
+          {
+            "book_names": [
+              {
+                "author": "Rayna I. Kraeva",
+                "language": "C++"
+              },
+              {
+                "author": "Assen Roguev",
+                "language": "C"
+              },
+              {
+                "author": "Jean Sippy",
+                "language": "Java"
+              }
+            ]
+          }
+        ],
+        "title_display": "This is test api",
+        "score": 6.507213
+      },
+      {
+        "id": "10.1371/journal.pone.0000290",
+        "journal": "PLoS TWO",
+        "eissn": "1932-6203",
+        "publication_date": "2007-03-14T00:00:00Z",
+        "article_name": "Research Article 2",
+        "books2": [
+          {
+            "book_names": [
+              {
+                "author": "Yi-Hua Lai",
+                "language": "Php"
+              },
+              {
+                "author": "Annalisa Morano",
+                "language": "Javascript"
+              },
+              {
+                "author": "Wen-Lin Wu",
+                "language": "Pascal"
+              }
+            ]
+          }
+        ],
+        "title_display": "This is test api",
+        "score": 6.507213
+      }
+    ]
+  }
+}
