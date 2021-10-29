@@ -22,14 +22,14 @@ public class AdsActivity extends AppCompatActivity {
         setContentView(activityAdsBinding.getRoot());
 
         ArrayList<ImageModel> imageModels = new ArrayList<>();
-        imageModels.add(new ImageModel(R.drawable.frame1));
-        imageModels.add(new ImageModel(R.drawable.frame2));
-        imageModels.add(new ImageModel(R.drawable.frame1));
-        imageModels.add(new ImageModel(R.drawable.frame2));
-        imageModels.add(new ImageModel(R.drawable.frame1));
-        imageModels.add(new ImageModel(R.drawable.frame2));
-        imageModels.add(new ImageModel(R.drawable.frame1));
-        imageModels.add(new ImageModel(R.drawable.frame2));
+        imageModels.add(new ImageModel(R.drawable.frame1,"content"));
+        imageModels.add(new ImageModel(R.drawable.frame2,"content"));
+        imageModels.add(new ImageModel(0,"null"));
+        imageModels.add(new ImageModel(R.drawable.frame1,"content"));
+        imageModels.add(new ImageModel(R.drawable.frame2,"content"));
+        imageModels.add(new ImageModel(0,"null"));
+        imageModels.add(new ImageModel(R.drawable.frame1,"content"));
+        imageModels.add(new ImageModel(R.drawable.frame2,"content"));
 
         adsAdapter = new AdsAdapter(this,this, imageModels);
         gridLayoutManager = new GridLayoutManager(AdsActivity.this, 2);

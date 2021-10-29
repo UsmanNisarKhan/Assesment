@@ -49,11 +49,9 @@ public class AdsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     public int getItemViewType(int position)
     {
-        if (position  == 2) {
+        if (mData.get(position).getType().equals("null"))
             return VIEW_TYPE_LOADING;
-        }else{
-            return VIEW_TYPE_ITEM;
-        }
+        return VIEW_TYPE_ITEM;
     }
 
     @Override
