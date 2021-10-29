@@ -3,6 +3,7 @@ package com.universal.assesment;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.universal.assesment.databinding.ActivityAdsBinding;
@@ -51,4 +52,13 @@ public class AdsActivity extends AppCompatActivity {
         activityAdsBinding.recyclerView3.setAdapter(adsAdapter);
 
     }
+
+
+    @Override
+    public void onBackPressed() {
+
+        startActivity(new Intent(AdsActivity.this,MainActivity.class).putExtra("id","frame1"));
+        finish();
+    }
+
 }
