@@ -36,6 +36,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/guide3" />
 
+    <Button
+        android:id="@+id/btn_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ads Activity"
+        app:layout_constraintTop_toBottomOf="@+id/guide3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide1"
         android:layout_width="match_parent"

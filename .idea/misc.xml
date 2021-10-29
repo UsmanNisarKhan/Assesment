@@ -11,10 +11,21 @@
         <entry key="..\:/Users/Usman/Assesment/app/src/main/res/layout/jsonitems.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Usman/Assesment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Usman/Assesment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/drawable/ad_bgwhite.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/drawable/btn_ad.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/drawable/textview_ad_shape.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/activity_ads.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/activity_book_details.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/activity_frame.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/activity_main.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/ads.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/item.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/native_ad_media_lay.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Usman/Desktop/Assesment/app/src/main/res/layout/small_native_ad_placeholder.xml" value="0.14270833333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
